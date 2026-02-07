@@ -40,7 +40,7 @@ No segmentation masks are provided for the `non-crack` subset, as the correspond
 If required by a specific training or evaluation pipeline, empty masks with the same spatial resolution as the input images can be generated programmatically.
 
 ## Example script
-The example inference script requires a minimal set of runtime dependencies.
+The example inference script **`example.py`** requires a minimal set of runtime dependencies.
 All required libraries are listed in `requirements.txt` and can be installed with:
 
 ```bash
