@@ -21,8 +21,8 @@ The model is provided as a TorchScript module and can be downloaded from Google 
 The file `data.zip` contains a sample of images acquired in the domain of historic churches, used within the AIDaBIM project for training and validation of the crack segmentation model.
 The dataset is organized into two main subsets:
 
-- **`crack/`**: images containing visible cracks or structural lesions;
-- **`non-crack/`**: images showing masonry surfaces without visible damage.
+- `crack/`: images containing visible cracks or structural lesions;
+- `non-crack/`: images showing masonry surfaces without visible damage.
 
 ### Crack Subset
 
@@ -40,7 +40,7 @@ No segmentation masks are provided for the `non-crack` subset, as the correspond
 If required by a specific training or evaluation pipeline, empty masks with the same spatial resolution as the input images can be generated programmatically.
 
 ## Example script
-The example inference script **`example.py`** requires a minimal set of runtime dependencies.
+The example inference script `example.py` requires a minimal set of runtime dependencies.
 All required libraries are listed in `requirements.txt` and can be installed with:
 
 ```bash
