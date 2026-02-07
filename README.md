@@ -1,5 +1,8 @@
 # Crack Segmentation
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
+
 Pre-trained deep learning model for crack segmentation in images of historic churches, developed within the research project <a href=https://aidabim.dieti.unina.it/>AIDaBIM – Artificial Intelligence to assess structural/seismic Damage to historic heritage in a BIM environment</a><br>
 This repository provides a ready-to-use solution for crack segmentation in images of historic churches, including:
 - a pre-trained deep learning model,
