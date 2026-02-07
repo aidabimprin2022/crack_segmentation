@@ -3,6 +3,9 @@ Example inference script for crack segmentation in images of historic churches.
 
 The script loads a pre-trained TorchScript model, applies the required
 ImageNet normalization, and produces a binary crack segmentation mask.
+
+Please, download the model from the following Google Drive link:
+    https://drive.google.com/file/d/13AvEer_20VIG60lp6pryh0vJZdHE7njk/view?usp=sharing
 """
 
 import cv2
