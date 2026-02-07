@@ -10,6 +10,29 @@ This repository provides a ready-to-use solution for crack segmentation in image
 
 This repository is intended for research, evaluation, and demonstration purposes. The provided model and dataset are not meant for safety-critical or operational structural assessments.
 
+## Repository Structure
+The repository is organized as follows:
+<ul>
+  <li> <code>example.py</code>: Minimal inference script demonstrating how to load the model and perform crack segmentation on a sample image.</li>
+  <li> <code>requirements.txt</code>```: List of the minimal runtime dependencies required to execute the example script.</li>
+  <li> <code>sample_image.jpg</code>: Example input image used to demonstrate the inference pipeline.</li>
+  <li> <code>data.zip</code>: Compressed archive containing a sample of the church image dataset, including crack and non-crack samples, used during model development and validation. The dataset is provided for research and evaluation purposes.</li>
+</ul>
+
+## Requirements
+The example inference script requires the following libraries:
+<ul>
+  <li>PyTorch</li>
+  <li>NumPy</li>
+  <li>OpenCV</li>
+  <li>OpenCV</li>
+</ul>
+All required dependencies are listed in requirements.txt and can be installed with:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## License
 This project is released under the **MIT License**. See <a href="https://github.com/aidabimprin2022/crack_segmentation/blob/main/LICENSE">LICENSE</a>.
 
