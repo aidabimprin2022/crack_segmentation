@@ -4,11 +4,16 @@ Pre-trained deep learning model for crack segmentation in images of historic chu
 This repository provides a ready-to-use solution for crack segmentation in images of historic churches, including:
 <ul>
   <li>a pre-trained deep learning model,</li>
-  <li>the reference dataset used for training/validation,</li>
+  <li>a sample of the reference dataset used for training/validation,</li>
   <li>a minimal example code to perform inference.</li>
 </ul>
 
 This repository is intended for research, evaluation, and demonstration purposes. The provided model and dataset are not meant for safety-critical or operational structural assessments.
+
+## Pre-trained Model
+
+Due to file size limitations, the pre-trained crack segmentation model is not stored directly in this repository.
+The model is provided as a TorchScript module and can be downloaded from Google Drive: https://drive.google.com/file/d/13AvEer_20VIG60lp6pryh0vJZdHE7njk/view?usp=sharing
 
 ## Repository Structure
 The repository is organized as follows:
